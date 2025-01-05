@@ -30,9 +30,6 @@ import (
 	"github.com/drk1wi/Modlishka/log"
 )
 
-// Paste your CA certificate and key in the following format
-// Ref: https://github.com/drk1wi/Modlishka/wiki/Quickstart-tutorial
-
 const CA_CERT = `-----BEGIN CERTIFICATE-----
 MIIDRDCCAiwCCQC/MUuFNX64sjANBgkqhkiG9w0BAQsFADBkMQswCQYDVQQGEwJw
 bDELMAkGA1UECAwCcGwxCzAJBgNVBAcMAnBsMQswCQYDVQQKDAJwbDELMAkGA1UE
@@ -53,7 +50,6 @@ ngLpDX71HyMkgfwK0Nl7XBlT3LrTS8ASugR4Pr4xZVb/ApmIEo5BwEthDiRhwKnS
 oU1HwMCmJWKexXSShADTjcULtlMOL56P36y/fbu5xikEdfURAcIC/+bTqDw+twsN
 sQX5u89N+VCZf3xg5wSxB0shI6WSQX0A
 -----END CERTIFICATE-----`
-
 const CA_CERT_KEY = `-----BEGIN RSA PRIVATE KEY-----
 MIIEpAIBAAKCAQEAvv+AkWp9ek8jxWqs810X1pYhUZrpUxswfWVFEwmxhMXe5w+0
 Dd5sQPksBUzO9OS58bD1srW+CTa+gL+yUC3xb2lA+5bu4B9kfKO/X5wPx4hEEk1+
@@ -81,6 +77,8 @@ qWHeEQKBgQDAmzS17UOTCr0YwrGx+9+XBYd05FqDsPDpljzv5iPD/IjVFu2UUfXM
 j8qnz4gumUCjOg4GLhzpT0TCXlcpvP7Ua/s/WF3MMk5OvDP1AZlp8XhQNUWe8vNb
 ZMRxTzdweb9zdrQ1985ffmgzLBMI6m1QmqAFaotRgtasiFwVeJF2cA==
 -----END RSA PRIVATE KEY-----`
+
+
 
 func init() {
 
